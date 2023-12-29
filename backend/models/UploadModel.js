@@ -2,7 +2,7 @@ const mongoose =require("mongoose")
 
 const uploadSchema = new mongoose.Schema({
     photo:{
-        type: string,
+        type: String,
         required: true,
     },
 }, {timestamps: true}
